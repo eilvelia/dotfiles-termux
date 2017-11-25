@@ -20,6 +20,10 @@ pkg install ruby
 
 pkg install nmap
 
+### ---
+
+cp ./gitconfig ~/.gitconfig
+
 ### sudo
 
 pkg install ncurses-utils

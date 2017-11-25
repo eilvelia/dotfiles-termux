@@ -1,0 +1,9 @@
+[user]
+	name = Bannerets
+	email = save14@protonmail.com
+[alias]
+	uncommit = reset HEAD^
+	plog = log --color --graph --pretty=format:'%C(yellow)%h%Creset%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit
+	assume = update-index --assume-unchanged
+	unassume = update-index --no-assume-unchanged
+	assumed = "!git ls-files -v | grep ^h | cut -c 3-"

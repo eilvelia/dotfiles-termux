@@ -24,7 +24,7 @@ function prompt {
 
   local git_branch='`git branch 2> /dev/null | grep ^* | sed -e "s/* \(.*\)/(\1) /"`'
 
-  export PS1="$CYAN$git_branch$RESETCOLOR \\$ "
+  export PS1="$CYAN$git_branch$RESETCOLOR\\$ "
 }
 
 prompt
